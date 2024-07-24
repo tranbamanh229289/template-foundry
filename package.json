@@ -1,0 +1,14 @@
+{
+  "name": "template-foundry",
+  "version": "1.0.0",
+  "description": "template foundry project",
+  "repository": "https://github.com/tranbamanh229289/template-foundry.git",
+  "author": "manhtb",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  },
+  "devDependencies": {
+    "forge-std": "github:foundry-rs/forge-std#v1.8.1"
+  }
+}
