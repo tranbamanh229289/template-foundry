@@ -12,7 +12,7 @@ bsc = {key="${API_KEY_BSCSCAN}"}
 base = {key="${API_KEY_BASESCAN}"}
 polygon = {key="${API_KEY_POLYGONSCAN}"}
 avalanche = {key = "${API_KEY_SNOWTRACE}"}
-eth_sepolia = {key="${API_KEY_ETHERSCAN}"}
+sepolia = {key="${API_KEY_ETHERSCAN}"}
 arbitrum_sepolia = {key="${API_KEY_ARBISCAN}"}
 bsc_test = {key="${API_KEY_BSCSCAN}"}
 base_sepolia = {key="${API_KEY_BASESCAN}"}
@@ -27,7 +27,7 @@ avalanche_fuji = {key = "${API_KEY_SNOWTRACE}"}
   base = "https://base-mainnet.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
   polygon = "https://polygon-mainnet.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
   avalanche = "https://avalanche-mainnet.infura.io/v3/${API_KEY_INFURA}"
-  eth_sepolia = "https://eth-sepolia.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
+  sepolia = "https://eth-sepolia.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
   arbitrum_sepolia = "https://arb-sepolia.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
   bsc_test = ""
   base_sepolia = "https://base-sepolia.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
