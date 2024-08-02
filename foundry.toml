@@ -11,25 +11,25 @@ arbitrum = {key = "${API_KEY_ARBISCAN}"}
 bsc = {key="${API_KEY_BSCSCAN}"}
 base = {key="${API_KEY_BASESCAN}"}
 polygon = {key="${API_KEY_POLYGONSCAN}"}
+blast = {key="${API_KEY_BLASTSCAN}"}
 avalanche = {key = "${API_KEY_SNOWTRACE}"}
-sepolia = {key="${API_KEY_ETHERSCAN}"}
-arbitrum_sepolia = {key="${API_KEY_ARBISCAN}"}
-bsc_test = {key="${API_KEY_BSCSCAN}"}
-base_sepolia = {key="${API_KEY_BASESCAN}"}
-polygon_amoy = {key="${API_KEY_POLYGONSCAN}"}
-avalanche_fuji = {key = "${API_KEY_SNOWTRACE}"}
-
+optimism = {key = "${API_KEY_OPTIMISMSCAN}"}
 
 [rpc_endpoints]
   mainnet = "https://eth-mainnet.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
   arbitrum = "https://arb-mainnet.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
-  bsc = ""
+  bsc = "https://bsc-dataseed.binance.org"
   base = "https://base-mainnet.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
   polygon = "https://polygon-mainnet.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
+  blast = "https://blast-mainnet.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
   avalanche = "https://avalanche-mainnet.infura.io/v3/${API_KEY_INFURA}"
-  sepolia = "https://eth-sepolia.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
+  optimism = "https://opt-mainnet.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
+
+  eth_sepolia = "https://eth-sepolia.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
   arbitrum_sepolia = "https://arb-sepolia.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
-  bsc_test = ""
+  bsc_testnet = "https://data-seed-prebsc-1-s1.binance.org:8545/"
   base_sepolia = "https://base-sepolia.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
   polygon_amoy = "https://polygon-amoy.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
+  blast_sepolia = "https://blast-sepolia.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
   avalanche_fuji = "https://avalanche-fuji.infura.io/v3/${API_KEY_INFURA}"
+  optimism_sepolia = "https://opt-sepolia.g.alchemy.com/v2/${API_KEY_ALCHEMY}"

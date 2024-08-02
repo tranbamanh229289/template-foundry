@@ -48,7 +48,7 @@ $ anvil
 ### Deploy and verify
 
 ```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <rpc_endpoint> --verify
+$ forge script script/Counter.s.sol:CounterScript --broadcast --rpc-url <rpc_endpoint> --verify
 ```
 
 ### Cast
